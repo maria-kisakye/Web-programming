@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lucida Sans Unicode';
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: beige;
+    padding: 20px;
+}
+
+nav ul {
+    list-style:   
+ none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+section {
+    padding: 40px;
+}
+
+.about.photo {
+    width: 50px;
+    height: 50px;
+}
+
+.education-background-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.education {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+
